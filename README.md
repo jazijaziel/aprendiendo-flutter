@@ -141,24 +141,33 @@ Your application code is in aprendiendo_flutter/lib/main.dart.
 Dando como resultado el siguiente directorio:
 ``` bash
 $ ls
-aprendiendo-flutter	aprendiendo_flutter	git-new-repo
-
+README.md		android			aprendiendo_flutter.iml	ios			lib			pubspec.lock		pubspec.yaml		test
 
 $ tree -L 2
 .
-├── aprendiendo-flutter
-│   └── README.md
-├── aprendiendo_flutter
-│   ├── README.md
-│   ├── android
-│   ├── aprendiendo_flutter.iml
-│   ├── ios
-│   ├── lib
-│   ├── pubspec.lock
-│   ├── pubspec.yaml
-│   └── test
-└── git-new-repo
-    └── README.md
+├── README.md
+├── android
+│   ├── app
+│   ├── aprendiendo_flutter_android.iml
+│   ├── build.gradle
+│   ├── gradle
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── local.properties
+│   └── settings.gradle
+├── aprendiendo_flutter.iml
+├── ios
+│   ├── Flutter
+│   ├── Runner
+│   ├── Runner.xcodeproj
+│   └── Runner.xcworkspace
+├── lib
+│   └── main.dart
+├── pubspec.lock
+├── pubspec.yaml
+└── test
+    └── widget_test.dart
 
-7 directories, 6 files
+10 directories, 13 files
 ```
